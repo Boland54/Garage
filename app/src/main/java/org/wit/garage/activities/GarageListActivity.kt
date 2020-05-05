@@ -40,12 +40,10 @@ class GarageListActivity : AppCompatActivity(), GarageListener {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
                 when (item?.itemId) {
-                    R.id.item_add -> {
+                    R.id.item_add ->
                         startActivityForResult<GarageActivity>(0)
-                    }
-                    R.id.item_map -> {
+                    R.id.item_map ->
                         startActivityForResult<LocationActivity>(0)
-                    }
                 }
 
                 return super.onOptionsItemSelected(item)

@@ -25,16 +25,12 @@ class GarageActivity : AppCompatActivity(), AnkoLogger {
     lateinit var app : MainApp
     val IMAGE_REQUEST = 1
     val LOCATION_REQUEST = 2
-    var location = Location(52.245696, -7.139102, 15f)
-    // var location = Location(52.245696, -7.139102, 15f)
-
     var edit = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_garage)
         app = application as MainApp
-        edit = true
 
         toolbarAdd.title = title
         setSupportActionBar(toolbarAdd)
@@ -71,7 +67,8 @@ class GarageActivity : AppCompatActivity(), AnkoLogger {
             garage.litre = litre.text.toString()
             garage.doors = doors.text.toString()
 
-            if (garage.make.isEmpty()) {
+            if (garage.make.isEmpty() or garage.model.isEmpty() or garage.year.isEmpty() or garage.litre.isEmpty() or
+            garage.doors.isEmpty()) {
                 toast(R.string.enter_garage_title)
             } else {
                 if (edit) {

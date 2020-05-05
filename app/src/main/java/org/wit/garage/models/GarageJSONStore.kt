@@ -44,8 +44,11 @@ class GarageJSONStore : GarageStore, AnkoLogger {
     }
 
     override fun update(garage: GarageModel) {
-        var foundGarage: GarageModel? = garages.find { p -> p.id == garage.id }
-        if (foundGarage != null) {
+        val garagesList = findAll() as ArrayList<GarageModel>
+        var foundGarage: GarageModel? = garagesList.find { p ->
+            p.id == garage.id
+        }
+            if (foundGarage != null) {
             foundGarage.make = garage.make
             foundGarage.model = garage.model
             foundGarage.year = garage.year
