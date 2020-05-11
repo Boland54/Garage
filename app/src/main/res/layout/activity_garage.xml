@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/appBarLayout"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/carv2"
             android:fillViewport="true">
 
             <LinearLayout
@@ -55,7 +55,10 @@
                     android:maxLength="25"
                     android:maxLines="1"
                     android:padding="8dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:backgroundTint="#ff0000"
+                    android:textColorHint="#fff"
+                    app:boxStrokeColor="#fff"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
                 <android.support.design.widget.TextInputEditText
@@ -68,7 +71,10 @@
                     android:maxLength="25"
                     android:maxLines="1"
                     android:padding="8dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:backgroundTint="#ff0000"
+                    android:textColorHint="#fff"
+                    app:boxStrokeColor="#fff"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
                 <android.support.design.widget.TextInputEditText
@@ -81,7 +87,10 @@
                     android:maxLength="25"
                     android:maxLines="1"
                     android:padding="8dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:backgroundTint="#ff0000"
+                    android:textColorHint="#fff"
+                    app:boxStrokeColor="#fff"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
                 <android.support.design.widget.TextInputEditText
@@ -94,7 +103,10 @@
                     android:maxLength="25"
                     android:maxLines="1"
                     android:padding="8dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:backgroundTint="#ff0000"
+                    android:textColorHint="#fff"
+                    app:boxStrokeColor="#fff"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
                 <android.support.design.widget.TextInputEditText
@@ -107,7 +119,10 @@
                     android:maxLength="25"
                     android:maxLines="1"
                     android:padding="8dp"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:backgroundTint="#ff0000"
+                    android:textColorHint="#fff"
+                    app:boxStrokeColor="#fff"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
                 <Button

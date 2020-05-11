@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Garage</string>
-    <string name="button_addGarage">Add Garage</string>
+    <string name="button_addGarage">Add Car To Garage</string>
     <string name="hint_garageModel">Model</string>
     <string name="hint_garageMake">Make </string>
     <string name="hint_garageYear">Year </string>
@@ -14,7 +14,7 @@
     <string name="select_garage_image">Select garage image</string>
     <string name="change_garage_image">Change garage image</string>
     <string name="garage_image">garage image</string>
-    <string name="button_location">Set Location</string>
+    <string name="button_location">View Location</string>
     <string name="title_activity_maps">Map</string>
     <string name="menu_map">Map</string>
     <string name="menu_deleteGarage">Delete</string>
